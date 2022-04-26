@@ -1,0 +1,72 @@
+.mainOneTool {
+  width: 980px;
+  height: 450px;
+  margin: 30px auto;
+  padding: 30px;
+}
+.mainTowTool {
+  width: 980px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.left {
+  display: flex;
+  height: 450px;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.right {
+  height: 450px;
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.productName {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.prodctPrice {
+  font-weight: 500;
+  font-size: 20px;
+  color: slategray;
+}
+
+.colWidth {
+  width: 50%;
+}
+
+.sand {
+  display: flex;
+  height: 35px;
+}
+
+.getOutline {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.getBtn {
+  width: 100%;
+  height: 60px;
+  color: white;
+  background-color: #aadbff;
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.getBtn:hover {
+  background-color: #9ad5ff;
+}
+
+.divLine {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
